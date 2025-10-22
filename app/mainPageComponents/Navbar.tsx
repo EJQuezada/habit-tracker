@@ -34,12 +34,21 @@ function Navbar() {
                         <button 
                             style={ backgroundColorObject} 
                             className={'block sm:w-32 w-full rounded-lg px-9 py-3 text-sm font-medium text-white transition focus:outline-neutral-500 hover:bg-opacity-90'} 
-                            type="button">
+                            type="button"
+                        >
                         Sign-In
                         </button>
-                        <button className={'block sm:w-32 w-full rounded-lg px-9 py-3 text-sm font-medium text-gray-900 transition border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring active:bg-gray-50'} type="button">
-                             
+                        <button 
+                            className={'block sm:w-32 w-full rounded-lg px-9 py-3 text-sm font-medium text-gray-900 transition border border-gray-300 focus:outline-none hover:bg-customRed hover:gray-100 focus:ring active:bg-gray-50'} 
+                            type="button"
+                        >
+                            Sign-Up
+                        </button> 
+                    </div>
                 </div>
-
             </div>
         </header>
+    );
+}
+
+export default Navbar;
